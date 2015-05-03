@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-hd.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-hd.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -261,11 +261,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.break-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/break-section.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,7 +284,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .break-section {
         padding: 100px 0;
     }
 
@@ -370,4 +370,27 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/*----------------New Css--------------------*/
+.bible-verse {
+    padding: 10em 0;
+    border-top: 1px solid #DDD;
+}
+
+.bible-verse span {
+    font-size: 2em;
+}
+
+.container .bible-verse:nth-child(1) {
+    padding-top: 0;
+    border-top-width: 0;
+}
+
+footer {
+    border-top: 1px solid #DDD;
+}
+
+.break-section.therefore {
+    background: url(../img/break-section-therefore.png) no-repeat center center scroll;
 }
