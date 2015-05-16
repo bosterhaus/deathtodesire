@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #DDD;
 }
 
 .navbar-custom .nav li a {
@@ -162,6 +162,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    padding-top: 90px;
 }
 
 .intro .intro-body .intro-text {
@@ -176,6 +177,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+        padding: 90px 20px 20px;
     }
 
     .intro .intro-body .intro-text {
@@ -280,6 +282,11 @@ a:focus {
 }
 
 @media(min-width:767px) {
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     .content-section {
         padding-top: 250px;
     }
@@ -373,13 +380,18 @@ body {
 }
 
 /*----------------New Css--------------------*/
-.bible-verse {
+.bible-verse, .take-action-content {
     padding: 10em 0;
     border-top: 1px solid #DDD;
 }
 
-.bible-verse span {
-    font-size: 2em;
+.bible-verse span, .take-action-content span {
+    font-size: 1.5em;
+}
+
+.take-action-intro {
+    border-top: 1px solid #DDD;
+    padding-top: 35px;
 }
 
 .container .bible-verse:nth-child(1) {
@@ -393,4 +405,8 @@ footer {
 
 .break-section.therefore {
     background: url(../img/break-section-therefore.jpg) no-repeat center center scroll;
+}
+
+.video-content {
+
 }
